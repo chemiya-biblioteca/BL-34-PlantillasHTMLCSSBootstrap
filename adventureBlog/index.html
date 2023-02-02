@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <navbar class="navbar">
+        <h1 class="logo">AVETURIA</h1>
+        <ul class="nav-links">
+            <li class="active"><a href=""></a>Home</li>
+            <li><a href=""></a>Tours</li>
+            <li><a href=""></a>Explorar</li>
+            <li><a href=""></a>About</li>
+            <li class="ctn"><a href=""></a>Contacto</li>
+        </ul>
+        <img src="imagenes/menu-btn.png" class="menu-btn">
+    </navbar>
+
+
+    <header>
+
+
+        <div class="header-content">
+            <h2>
+                Tu proxima aventura esta aqui
+            </h2>
+            <div class="line">
+
+            </div>
+            <h1>EL MEJOR REGALO POSIBLE</h1>
+            <a class="ctn">Saber mas</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>PROXIMOS EVENTOS</h1>
+            <div class="line"></div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="imagenes/senderismo.jfif">
+                <h4>Montaña palentina</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis perferendis iusto
+                    provident voluptas laboriosam similique quasi sed aliquid aperiam?</p>
+                <a href="" class="ctn">Saber mas</a>
+
+            </div>
+            <div class="col">
+                <img src="imagenes/senderismo.jfif">
+                <h4>Picos de Europa</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis perferendis iusto
+                    provident voluptas laboriosam similique quasi sed aliquid aperiam?</p>
+                <a href="" class="ctn">Saber mas</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>SEGURO DE TU VIAJE</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi voluptas maxime molestias nulla
+                voluptates, vitae excepturi iusto quidem nesciunt dicta.</p>
+            <a href="" class="ctn">Saber mas</a>
+        </div>
+
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>PROXIMOS TOURS Y DESTINOS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum optio unde suscipit quis. Nisi, magni
+                    totam nobis adipisci officia blanditiis.</p>
+                <a href="" class="ctn">Saber mas</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="imagenes/senderismo2.jfif">
+                    <img src="imagenes/senderismo2.jfif">
+                    <img src="imagenes/senderismo2.jfif">
+                    <img src="imagenes/senderismo2.jfif">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, possimus.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatum magni adipisci deleniti aut et
+            sunt odio quos quisquam officiis!</p>
+    </section>
+
+    <script>
+        const menuBot = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+        menuBot.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
