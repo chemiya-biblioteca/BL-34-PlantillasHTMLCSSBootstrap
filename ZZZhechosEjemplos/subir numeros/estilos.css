@@ -1,0 +1,16 @@
+.information {
+	background: #191919;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.information .counter-number {
+    color: #fff;
+    font-size: 32px;
+}
+
+.information .counter-text {
+    color: #fff;
+    letter-spacing: 2px;
+}

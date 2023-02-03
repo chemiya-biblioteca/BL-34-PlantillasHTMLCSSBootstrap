@@ -1,0 +1,63 @@
+/*caja*/
+.classified {
+    margin-top: 90px;
+}
+
+.classified .titlepage h2 {
+    padding-bottom: 20px;
+}
+
+.classified .titlepage p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #232324;
+}
+
+.classified_box {
+    background: #12153c;
+    min-height: 453px;
+}
+
+.classified .classified_box figure {
+    margin: 0;
+}
+
+.classified .classified_box figure img {
+    width: 100%;
+}
+
+
+.classified .classified_box h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-weight: 501;
+    padding: 20px 20px 0px 20px;
+}
+
+.classified .classified_box p {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 10px 20px 25px 20px
+}
+
+
+
+/*titulo*/
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.titlepage span {color: #d8bd08; font-weight: 500; font-size: 20px;}
+
+.titlepage h2 {
+    font-size: 55px;
+    color: #12153c;
+    line-height: 55px;
+    font-weight: bold;
+    padding: 0;
+}

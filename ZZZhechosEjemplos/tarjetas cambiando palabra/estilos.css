@@ -1,0 +1,49 @@
+.services {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.services h2 {
+	font-size: 32px;
+	text-align: center;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 300;
+}
+
+.services h2 span {
+	font-weight: 600;
+}
+
+.services h3 {
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	font-family: "Open Sans", Arial, sans-serif;
+	color: #666666;
+}
+
+.services .overview {
+	margin-top: 20px;
+}
+
+.services .overview .feature-box img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.services .overview .feature-body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.services .overview .feature-body h4 {
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.services .overview .feature-body p {
+	font-size: 14px;
+	font-weight: 300;
+	color: #666666;
+}

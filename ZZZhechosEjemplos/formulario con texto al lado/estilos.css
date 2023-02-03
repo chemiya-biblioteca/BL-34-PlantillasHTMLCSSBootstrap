@@ -1,0 +1,31 @@
+.contact_section .form_contaier form button {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #121313;
+    border: 1px solid #121313;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .contact_section .form_contaier form button:hover {
+    background-color: transparent;
+    color: #121313;
+  }
+  
+  .contact_section .detail-box {
+    background-image: url(./images/contact-bg.jpg);
+    color: #ffffff;
+    padding: 140px 15%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .contact_section .detail-box h3 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .contact_section .detail-box p {
+    margin-top: 25px;
+  }
